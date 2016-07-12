@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    height: 50px;
+    width: 100px;
+    background-color: #68be7f;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.add_new_user {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.5rem;
+}
